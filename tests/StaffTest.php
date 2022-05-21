@@ -27,7 +27,7 @@ class StaffTest extends TestCase
     public function only_first_name()
     {
         $staff = new Staff;
-        $staff->first_name = "EEE";
+        $staff->first_name = "FFF";
         $this->assertEquals('AAA', $staff->getFullName());
     }
 }
